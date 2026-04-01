@@ -219,7 +219,6 @@
         display: block;
         color: #fff;
         margin-right: 19px;
-
         transition: all 0.2s linear;
         font-size: 17px;
         font-style: normal;
@@ -278,7 +277,7 @@
       }
       ul {
         @media (max-width: 768px) {
-          flex-direction: column;
+          flex-direction: column !important;
           gap: 0;
           width: 100%;
           background: rgba(0, 0, 0, 0);
